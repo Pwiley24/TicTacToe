@@ -231,7 +231,7 @@ bool checkTie(char board[4][7]){
       board[4][7] == player){ //diagonal left to right
      return true;
    }
-  else if(board[4][1] == player &&
+  else if(board[4][3] == player &&
      board[3][5] == player &&
      board[2][7] == player){ //diagonal right to left
     return true;
